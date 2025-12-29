@@ -1,8 +1,8 @@
-Project Overview
+**Project Overview**
 
 •This project applies time series forecasting to hospital admission data to predict patient inflows and support healthcare resource planning. The workflow covers data preprocessing, model development, evaluation, and dashboarding in Python and Power BI.
 
-Dataset
+**Dataset**
 
 •15,000+ hospital admission records.
 
@@ -10,7 +10,7 @@ Dataset
 
 •Cleaned for date mismatches, missing values, and outliers to ensure reliable forecasts.
 
-Methodology
+**Methodology**
 
 •Data Preparation – Converted raw hospital records into weekly admission counts.
 
@@ -20,7 +20,7 @@ Methodology
 
 •Visualization – Built plots in Python and an interactive Power BI dashboard.
 
-Key Results
+**Key Results**
 
 •Prophet model performed best with RMSE 17.3 and MAE 14.4.
 
@@ -28,7 +28,7 @@ Key Results
 
 •Dashboard enabled comparison of model performance and trend insights.
 
-Tech Stack
+**Tech Stack**
 
 •Python: Pandas, NumPy, Statsmodels, pmdarima, Prophet, Matplotlib, Seaborn
 
@@ -36,17 +36,18 @@ Tech Stack
 
 •Tools: Jupyter Notebook, GitHub
 
-Project Structure hospital-time-series-forecast
+**Project Structure**
+hospital-time-series-forecast
 
-├── notebook.ipynb # Jupyter Notebook with full workflow
+├── notebook.ipynb      # Jupyter Notebook with full workflow
 
 ├── model_forecasts.csv # Forecast outputs for Power BI
 
-├── dashboard.pbix # Power BI dashboard file
+├── dashboard.pbix      # Power BI dashboard file
 
-└── README.md # Project documentation
+└── README.md           # Project documentation
 
-Future Work
+**Future Work**
 
 •Add external factors (seasonality, holidays, epidemics).
 
